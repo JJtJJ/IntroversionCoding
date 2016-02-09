@@ -1,5 +1,10 @@
 public class Arrays {
   
+  /*
+  / Create a new array of the correct size,
+  / and populate that array with the original array without
+  / every third element
+  */
   public static int[] removeEveryThirdElement(int[] xs) {
     int xsSize = xs.length;
     int[] resultXs = new int[xsSize - (xsSize / 3)];
